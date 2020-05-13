@@ -242,3 +242,6 @@ $RECYCLE.BIN/
 
 scripts-old/
 scripts/**/tmp
+
+.github
+.idea
