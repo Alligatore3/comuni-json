@@ -122,7 +122,7 @@ Tutti i campi sono di tipo stringa, ad eccezione di `popolazione` che è numeric
 
 ## Fonti
 
-Il database è basato su [dati ISTAT](http://www.istat.it/it/archivio/6789) ed è integrato con i dati sui CAP pubblicati da [ANCI](http://www.anci.it/) (Associazione Nazionale Comuni Italiani). Sono state effettuate correzioni manuali per aggiungere le zone postali dei comuni multi-CAP ([fonte 1](http://www.nonsolocap.it/docs/codice-di-avviamento-postale/), [fonte 2](http://www.comuni-italiani.it/cap/multicap.html)) e per allinearsi con gli [aggiornamenti dei CAP](https://www.poste.it/cap.html) effettuati in seguito alle fusioni del 2016, 2017, 2018 e 2019.
+Il database è basato su [dati ISTAT](h****ttp://www.istat.it/it/archivio/6789) ed è integrato con i dati sui CAP pubblicati da [ANCI](http://www.anci.it/) (Associazione Nazionale Comuni Italiani). Sono state effettuate correzioni manuali per aggiungere le zone postali dei comuni multi-CAP ([fonte 1](http://www.nonsolocap.it/docs/codice-di-avviamento-postale/), [fonte 2](http://www.comuni-italiani.it/cap/multicap.html)) e per allinearsi con gli [aggiornamenti dei CAP](https://www.poste.it/cap.html) effettuati in seguito alle fusioni del 2016, 2017, 2018 e 2019.
 
 ## Aggiornamenti
 
@@ -135,3 +135,11 @@ I CAP per i comuni istituiti (per fusione o incorporamento) a gennaio 2020, e fe
 Il 26/10/2018 è stato aggiunto il campo `popolazione`.
 
 **ATTENZIONE: nell'aggiornamento del 16/02/2019 è stato rimosso il campo `cm` (vedi [#22](https://github.com/matteocontrini/comuni-json/issues/22) per la discussione).**
+
+## Possibili endpoint REST
+```
+- Dammi tutti i comuni di quella regione
+- Dammi tutti i comuni di quella provincia
+- Dammi tutti i CAP di quella regione
+- Dammi tutti i CAP di quella provincia
+```
