@@ -14,6 +14,7 @@ exports.handler = (event, context, callback) => {
   if (!regionExists) return callback(null, { statusCode: 200, body: 'Regione inesistente'});
 
   const results = municipalities.filter(municipality => municipality.regione.nome.toLowerCase() === region)
+  console.log(results.length, `Comuni nella regione ${region}`)
   const body = JSON.stringify(results)
   return callback(null, { statusCode: 200, body });
 };
