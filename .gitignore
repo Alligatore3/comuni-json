@@ -242,6 +242,8 @@ $RECYCLE.BIN/
 scripts-old/
 scripts/**/tmp
 
+.DS_Store
+
 .github
 .idea
 lambda/
