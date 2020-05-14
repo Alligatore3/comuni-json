@@ -29,7 +29,7 @@
 ```
 /**
  * @description Dammi tutti i CAP di quella regione
- * @return {Array}
+ * @return {Array} ASC order CAPs.
  */
 ```
 [/getCAPsByRegion/${region} (Es. 'Lombardia')](https://cranky-galileo-bb04a5.netlify.app/.netlify/functions/getCAPsByRegion/lombardia)
@@ -37,7 +37,7 @@
 ```
 /**
  * @description Dammi tutti i CAP di quella provincia
- * @return {Array}
+ * @return {Array} ASC order CAPs.
  */
 ```
 [/getCAPsByProvince/${province} (Es. 'Milano')](https://cranky-galileo-bb04a5.netlify.app/.netlify/functions/getCAPsByProvince/milano)

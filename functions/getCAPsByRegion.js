@@ -22,7 +22,7 @@ exports.handler = (event, context, callback) => {
   const results = municipalities.reduce((acc, curr) => {
     (curr.regione.nome.toLowerCase() === region) && (acc = acc.concat(curr.cap))
     return acc
-  }, []).filter(onlyUnique)
+  }, []).filter(onlyUnique).sort()
 
   console.log(results.length, `CAP in regione di ${region}`)
   const body = JSON.stringify(results)

@@ -22,7 +22,7 @@ exports.handler = (event, context, callback) => {
   const results = municipalities.reduce((acc, curr) => {
     (curr.provincia.nome.toLowerCase() === province) && (acc = acc.concat(curr.cap))
     return acc
-  }, []).filter(onlyUnique)
+  }, []).filter(onlyUnique).sort()
 
   console.log(results.length, `CAP in provincia di ${province}`)
   const body = JSON.stringify(results)
