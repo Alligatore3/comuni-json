@@ -1,14 +1,14 @@
 {
   "name": "comuni-json",
   "version": "1.0.0",
-  "description": "Database comuni italiani",
+  "description": "Database comuni italiani in REST API",
   "private": true,
   "scripts": {
     "dev": "netlify-lambda serve functions",
     "start": "netlify-lambda serve functions",
     "build": "netlify-lambda build functions"
   },
-  "author": "Matteo Contrini <m.contrini@gmail.com>",
+  "author": "Mattia Zanellla <mattia_zanella@icloud.com>",
   "license": "MIT",
   "devDependencies": {
     "netlify-lambda": "^1.6.3"
