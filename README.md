@@ -49,4 +49,4 @@
  * @return {Object}
  */
 ```
-[/getCAPsByProvince/${CAP} (Es. '36015')](https://cranky-galileo-bb04a5.netlify.app/.netlify/functions/getMunicipalityByCAP/36015)
+[/getMunicipalityByCAP/${CAP} (Es. '36015')](https://cranky-galileo-bb04a5.netlify.app/.netlify/functions/getMunicipalityByCAP/36015)
