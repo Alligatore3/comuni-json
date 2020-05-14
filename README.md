@@ -8,3 +8,12 @@
 - Dammi tutti i CAP di quella provincia
 - Dammi il comune di quel CAP
 ```
+
+## Endpoint realizzati
+```
+- Dammi tutti i comuni di quella regione
+- Dammi tutti i comuni di quella provincia
+- Dammi tutti i CAP di quella regione
+- Dammi tutti i CAP di quella provincia
+- Dammi il comune di quel CAP
+```
